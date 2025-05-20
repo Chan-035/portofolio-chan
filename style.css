@@ -331,7 +331,7 @@ section {
 
 /* EXPERIENCE SECTION */
 
-#experience {
+#skills {
   position: relative;
 }
 
@@ -372,6 +372,7 @@ article .icon {
 
 #projects {
   position: relative;
+  margin-top: 200px;
 }
 
 .color-container {
@@ -449,3 +450,99 @@ footer p {
 .hidden {
     display: none;
   }
+
+  /* EXPERIENCE TIMELINE SECTION */
+
+#experience {
+  position: relative;
+  padding: 4rem 0;
+  min-height: 100vh;
+}
+
+.experience-section {
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.experience-section .section-subtitle {
+  font-size: 1.2rem;
+  color: rgb(85, 85, 85);
+  margin-bottom: 0.5rem;
+}
+
+.experience-section .section-title {
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+  font-weight: 600;
+}
+
+/* Timeline Container */
+.timeline {
+  position: relative;
+  max-width: 900px;
+  margin: 0 auto;
+  padding-left: 30px;
+  border-left: 4px solid rgb(53, 53, 53);
+}
+
+/* Timeline Item */
+.timeline-item {
+  position: relative;
+  margin-bottom: 50px;
+  padding-left: 20px;
+}
+
+.timeline-icon {
+  position: absolute;
+  left: -14px;
+  top: 5px;
+  width: 20px;
+  height: 20px;
+  background-color: rgb(53, 53, 53);
+  border-radius: 50%;
+}
+
+/* Content Styling */
+.timeline-content {
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+  text-align: left;
+  border: 1px solid rgb(163, 163, 163);
+}
+
+.timeline-date {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: rgb(85, 85, 85);
+  margin-bottom: 0.5rem;
+}
+
+.timeline-content h3 {
+  font-size: 1.2rem;
+  color: black;
+  margin-bottom: 0.2rem;
+}
+
+.timeline-content h4 {
+  font-size: 1rem;
+  color: rgb(53, 53, 53);
+  margin-bottom: 0.8rem;
+  font-style: italic;
+}
+
+.timeline-content ul {
+  padding-left: 1.2rem;
+  color: rgb(85, 85, 85);
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+/* Arrow Icon at Bottom */
+.arrow-icon {
+  display: block;
+  margin: 3rem auto 0;
+  width: 32px;
+  cursor: pointer;
+}
